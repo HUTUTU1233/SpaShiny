@@ -1,1 +1,0 @@
-"""SpaShiny modular source export."""

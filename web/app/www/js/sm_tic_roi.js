@@ -72,7 +72,7 @@
   function loadPlotly() {
     if (window.Plotly && window.Plotly.react) return Promise.resolve(window.Plotly);
     if (!state.plotly) state.plotly = new Promise(function (resolve, reject) {
-      var script = document.createElement("script"); script.src = "/js/sm_tic_plotly.min.js?v=5.10.0";
+      var script = document.createElement("script"); script.src = "/js/plotly-session.min.js?v=5.10.0";
       script.onload = function () { resolve(window.Plotly); };
       script.onerror = function () { state.plotly = null; reject(new Error("TIC plotting library failed to load. Check the connection and reopen this page.")); };
       document.head.appendChild(script);
