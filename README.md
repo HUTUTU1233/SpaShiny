@@ -7,4 +7,4 @@ We present SpaShiny, an interactive web platform incorporating SpatialMETA and R
 
 ---
 
-Website link: [https://spashiny.org/](https://example.com)
+
