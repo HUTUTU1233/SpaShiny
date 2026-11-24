@@ -7,4 +7,4 @@ We present SpaShiny, an interactive web platform incorporating **SpatialMETA** a
 
 ---
 
-Website link: [https://spashiny.org/](https://example.com)
+Website link: [https://spashiny.org/]
